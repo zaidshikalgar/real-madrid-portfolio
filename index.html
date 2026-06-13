@@ -1,6 +1,5 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,7 +41,6 @@
     <div class="hero-content">
         <h2><span class="hero-title-line">Welcome to the page of</span><br>Madridistas</h2>
         <p>The legacy of champions, legends, and global glory.</p>
-        <a href="#about" class="btn">Explore the Club</a>
     </div>
 
 </section>
@@ -52,29 +50,34 @@
 
     <div class="about-container">
 
-        <div class="about-card">
+        <div class="about-card" tabindex="0">
             <h3>Founded</h3>
             <p>1902</p>
+            <p class="card-extra">Founded as Madrid Football Club before earning royal recognition in 1920.</p>
         </div>
 
-        <div class="about-card">
+        <div class="about-card" tabindex="0">
             <h3>Country</h3>
             <p>Spain</p>
+            <p class="card-extra">The club represents Madrid and competes at the top level of Spanish football.</p>
         </div>
 
-        <div class="about-card">
+        <div class="about-card" tabindex="0">
             <h3>Nickname</h3>
             <p>Los Blancos</p>
+            <p class="card-extra">The name comes from the club's iconic all-white home kit.</p>
         </div>
 
-        <div class="about-card">
+        <div class="about-card" tabindex="0">
             <h3>Stadium</h3>
             <p>Santiago Bernabéu</p>
+            <p class="card-extra">A historic football venue in Madrid and one of the sport's most famous arenas.</p>
         </div>
 
-         <div class="about-card">
+         <div class="about-card" tabindex="0">
             <h3>President</h3>
             <p>Florentino Pérez</p>
+            <p class="card-extra">Known for leading major eras of global stars and ambitious club projects.</p>
         </div>
 
     </div>
@@ -89,36 +92,47 @@
 
 <section id="achievements" class="achievements">
 
-    <h2>Achievements</h2>
+    <h2> Achievements</h2>
 
     <div class="achievement-container">
 
-        <div class="achievement-card">
-            <h3>👑 15</h3>
+        <div class="achievement-card" tabindex="0">
+            <h3><span class="achievement-mark"><i data-lucide="crown" aria-hidden="true"></i></span> 15</h3>
             <p>UEFA Champions League Titles</p>
+            <p class="achievement-extra">The most Champions League titles in football history, built on unforgettable European nights.</p>
         </div>
 
-        <div class="achievement-card">
-            <h3>⚽ 36</h3>
+        <div class="achievement-card" tabindex="0">
+            <h3><span class="achievement-mark"><i data-lucide="medal" aria-hidden="true"></i></span> 36</h3>
             <p>La Liga Titles</p>
+            <p class="achievement-extra">A record of long-term domestic excellence across different eras of Spanish football.</p>
         </div>
 
-        <div class="achievement-card">
-            <h3>🏆 20</h3>
+        <div class="achievement-card" tabindex="0">
+            <h3><span class="achievement-mark"><i data-lucide="trophy" aria-hidden="true"></i></span> 20</h3>
             <p>Copa del Rey Titles</p>
+            <p class="achievement-extra">Spain's historic cup competition has added many classic knockout moments to Madrid's legacy.</p>
         </div>
 
-        <div class="achievement-card">
-            <h3>🌎 9</h3>
+        <div class="achievement-card" tabindex="0">
+            <h3><span class="achievement-mark"><i data-lucide="globe" aria-hidden="true"></i></span> 9</h3>
             <p>FIFA Club World Cups</p>
+            <p class="achievement-extra">Global trophies that underline the club's ability to represent Europe on the world stage.</p>
         </div>
 
-        <div class="achievement-card">
-            <h3>⭐ 6</h3>
+        <div class="achievement-card" tabindex="0">
+            <h3><span class="achievement-mark"><i data-lucide="star" aria-hidden="true"></i></span> 5</h3>
             <p>UEFA Super Cups</p>
+            <p class="achievement-extra">Season-opening European finals that reward continental champions and elite consistency.</p>
         </div>
 
     </div>
+
+    <p class="achievements-text">
+        From European nights to domestic dominance, Real Madrid's trophy record
+        reflects generations of elite players, iconic managers, and a winning
+        culture built for the biggest stages in football.
+    </p>
 
 </section>
 
@@ -130,63 +144,143 @@
     <div class="players-container">
 
         <div class="player-card">
-            <img src="images/ronaldo.jpg" alt="Cristiano Ronaldo">
-            <h3>Cristiano Ronaldo</h3>
-            <p>Top scorer in Real Madrid history.</p>
+            <div class="player-card-inner">
+                <div class="player-card-face player-card-front">
+                    <img src="images/ronaldo.jpg" alt="Cristiano Ronaldo">
+                    <h3><button class="player-flip" type="button" aria-expanded="false">Cristiano Ronaldo</button></h3>
+                    <p>Top scorer in Real Madrid history.</p>
+                </div>
+                <div class="player-card-face player-card-back">
+                    <h3><button class="player-flip" type="button" aria-expanded="true">Cristiano Ronaldo</button></h3>
+                    <p>A relentless scorer and big-game icon who became Real Madrid's all-time leading goal machine.</p>
+                </div>
+            </div>
         </div>
 
         <div class="player-card">
-            <img src="images/zidane.jpg" alt="Zinedine Zidane">
-            <h3>Zinedine Zidane</h3>
-            <p>Creator of the famous volley and a midfield icon.</p>
+            <div class="player-card-inner">
+                <div class="player-card-face player-card-front">
+                    <img src="images/zidane.jpg" alt="Zinedine Zidane">
+                    <h3><button class="player-flip" type="button" aria-expanded="false">Zinedine Zidane</button></h3>
+                    <p>Creator of the famous volley and a midfield icon.</p>
+                </div>
+                <div class="player-card-face player-card-back">
+                    <h3><button class="player-flip" type="button" aria-expanded="true">Zinedine Zidane</button></h3>
+                    <p>An elegant genius whose touch, vision, and Champions League final volley defined pure football artistry.</p>
+                </div>
+            </div>
         </div>
 
         <div class="player-card">
-            <img src="images/ramos.jpg" alt="Sergio Ramos">
-            <h3>Sergio Ramos</h3>
-            <p>Defensive leader known for match-winning headers.</p>
+            <div class="player-card-inner">
+                <div class="player-card-face player-card-front">
+                    <img src="images/ramos.jpg" alt="Sergio Ramos">
+                    <h3><button class="player-flip" type="button" aria-expanded="false">Sergio Ramos</button></h3>
+                    <p>Defensive leader known for match-winning headers.</p>
+                </div>
+                <div class="player-card-face player-card-back">
+                    <h3><button class="player-flip" type="button" aria-expanded="true">Sergio Ramos</button></h3>
+                    <p>A fearless captain who mixed elite defending with dramatic goals when Madrid needed them most.</p>
+                </div>
+            </div>
         </div>
 
         <div class="player-card">
-            <img src="images/toni kroos.jpg" alt="Toni Kroos">
-            <h3>Toni Kroos</h3>
-            <p>Precision passer who controls the tempo of games.</p>
+            <div class="player-card-inner">
+                <div class="player-card-face player-card-front">
+                    <img src="images/toni kroos.jpg" alt="Toni Kroos">
+                    <h3><button class="player-flip" type="button" aria-expanded="false">Toni Kroos</button></h3>
+                    <p>Precision passer who controls the tempo of games.</p>
+                </div>
+                <div class="player-card-face player-card-back">
+                    <h3><button class="player-flip" type="button" aria-expanded="true">Toni Kroos</button></h3>
+                    <p>A midfield metronome whose passing, calm, and control helped Madrid rule Europe for years.</p>
+                </div>
+            </div>
         </div>
 
         <div class="player-card">
-            <img src="images/ozil.jpg" alt="Mesut Özil">
-            <h3>Mesut Özil</h3>
-            <p>Visionary playmaker with incredible creativity.</p>
+            <div class="player-card-inner">
+                <div class="player-card-face player-card-front">
+                    <img src="images/ozil.jpg" alt="Mesut Özil">
+                    <h3><button class="player-flip" type="button" aria-expanded="false">Mesut Özil</button></h3>
+                    <p>Visionary playmaker with incredible creativity.</p>
+                </div>
+                <div class="player-card-face player-card-back">
+                    <h3><button class="player-flip" type="button" aria-expanded="true">Mesut Özil</button></h3>
+                    <p>A creative magician with rare vision, turning small pockets of space into chances for Madrid's attack.</p>
+                </div>
+            </div>
         </div>
 
         <div class="player-card">
-            <img src="images/COURTOİS.jpg" alt="Thibaut Courtois">
-            <h3>Thibaut Courtois</h3>
-            <p>Shot-stopping wall between the posts.</p>
+            <div class="player-card-inner">
+                <div class="player-card-face player-card-front">
+                    <img src="images/COURTOİS.jpg" alt="Thibaut Courtois">
+                    <h3><button class="player-flip" type="button" aria-expanded="false">Thibaut Courtois</button></h3>
+                    <p>Shot-stopping wall between the posts.</p>
+                </div>
+                <div class="player-card-face player-card-back">
+                    <h3><button class="player-flip" type="button" aria-expanded="true">Thibaut Courtois</button></h3>
+                    <p>A commanding goalkeeper whose reflexes and Champions League heroics made him a modern Madrid giant.</p>
+                </div>
+            </div>
         </div>
         
         <div class="player-card">
-            <img src="images/marcelo.jpg" alt="Marcelo">
-            <h3>Marcelo</h3>
-            <p>Attacking fullback famous for flair and assists.</p>
+            <div class="player-card-inner">
+                <div class="player-card-face player-card-front">
+                    <img src="images/marcelo.jpg" alt="Marcelo">
+                    <h3><button class="player-flip" type="button" aria-expanded="false">Marcelo</button></h3>
+                    <p>Attacking fullback famous for flair and assists.</p>
+                </div>
+                <div class="player-card-face player-card-back">
+                    <h3><button class="player-flip" type="button" aria-expanded="true">Marcelo</button></h3>
+                    <p>A joyful attacking fullback with dazzling technique, creativity, and a huge role in Madrid's golden era.</p>
+                </div>
+            </div>
         </div>
 
          <div class="player-card">
-            <img src="images/modric.jpg" alt="Luka Modrić">
-            <h3>Luka Modrić</h3>
-            <p>Ball-winning maestro with endless energy.</p>
+            <div class="player-card-inner">
+                <div class="player-card-face player-card-front">
+                    <img src="images/modric.jpg" alt="Luka Modrić">
+                    <h3><button class="player-flip" type="button" aria-expanded="false">Luka Modrić</button></h3>
+                    <p>Ball-winning maestro with endless energy.</p>
+                </div>
+                <div class="player-card-face player-card-back">
+                    <h3><button class="player-flip" type="button" aria-expanded="true">Luka Modrić</button></h3>
+                    <p>A Ballon d'Or-winning maestro whose balance, intelligence, and courage made Madrid's midfield timeless.</p>
+                </div>
+            </div>
         </div>
 
         <div class="player-card">
-            <img src="images/benzema.jpg" alt="Karim Benzema">
-            <h3>Karim Benzema</h3>
-            <p>Clinical striker who delivers in the biggest moments.</p>
+            <div class="player-card-inner">
+                <div class="player-card-face player-card-front">
+                    <img src="images/benzema.jpg" alt="Karim Benzema">
+                    <h3><button class="player-flip" type="button" aria-expanded="false">Karim Benzema</button></h3>
+                    <p>Clinical striker who delivers in the biggest moments.</p>
+                </div>
+                <div class="player-card-face player-card-back">
+                    <h3><button class="player-flip" type="button" aria-expanded="true">Karim Benzema</button></h3>
+                    <p>A complete striker and leader who evolved into Madrid's main man with skill, intelligence, and clutch goals.</p>
+                </div>
+            </div>
         </div>
 
         <div class="player-card">
-            <img src="images/Iker Casillas.jpg" alt="Iker Casillas">
-            <h3>Iker Casillas</h3>
-            <p>Legendary captain and one of the greatest goalkeepers ever.</p>
+            <div class="player-card-inner">
+                <div class="player-card-face player-card-front">
+                    <img src="images/Iker Casillas.jpg" alt="Iker Casillas">
+                    <h3><button class="player-flip" type="button" aria-expanded="false">Iker Casillas</button></h3>
+                    <p>Legendary captain and one of the greatest goalkeepers ever.</p>
+                </div>
+                <div class="player-card-face player-card-back">
+                    <h3><button class="player-flip" type="button" aria-expanded="true">Iker Casillas</button></h3>
+                    <p>Saint Iker, a legendary captain whose saves, loyalty, and leadership made him one of football's greatest keepers.</p>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -203,27 +297,83 @@
     <div class="stars-container">
 
         <div class="star-card">
-            <img src="images/mbappe.jpg" alt="Mbappe">
-            <h3>Mbappé</h3>
-            <p>Forward</p>
+            <div class="star-card-inner">
+                <div class="star-card-face star-card-front">
+                    <button class="star-flip" type="button" aria-expanded="false" aria-label="Show more about Mbappe">
+                        <img src="images/mbappe.jpg" alt="Mbappe">
+                    </button>
+                    <h3>Mbappé</h3>
+                </div>
+                <button class="star-card-face star-card-back star-flip-back" type="button" aria-expanded="true" aria-label="Show Mbappe image">
+                    <h3>Mbappé</h3>
+                    <p>A world-class forward with explosive speed, ruthless finishing, and the star power to decide matches in seconds.</p>
+                    <ul>
+                        <li>Threat in behind any defensive line</li>
+                        <li>Elite one-on-one finisher</li>
+                        <li>Built for the biggest European nights</li>
+                    </ul>
+                </button>
+            </div>
         </div>
 
         <div class="star-card">
-            <img src="images/bellingham.jpg" alt="Bellingham">
-            <h3>Bellingham</h3>
-            <p>Midfielder</p>
+            <div class="star-card-inner">
+                <div class="star-card-face star-card-front">
+                    <button class="star-flip" type="button" aria-expanded="false" aria-label="Show more about Bellingham">
+                        <img src="images/bellingham.jpg" alt="Bellingham">
+                    </button>
+                    <h3>Bellingham</h3>
+                </div>
+                <button class="star-card-face star-card-back star-flip-back" type="button" aria-expanded="true" aria-label="Show Bellingham image">
+                    <h3>Bellingham</h3>
+                    <p>A complete midfielder with strength, timing, leadership, and a rare instinct for scoring important goals.</p>
+                    <ul>
+                        <li>Controls games with power and calm</li>
+                        <li>Arrives late into the box brilliantly</li>
+                        <li>Plays with captain-level confidence</li>
+                    </ul>
+                </button>
+            </div>
         </div>
 
         <div class="star-card">
-            <img src="images/vini.jpg" alt="Vinicius">
-            <h3>Vinícius Jr.</h3>
-            <p>Winger</p>
+            <div class="star-card-inner">
+                <div class="star-card-face star-card-front">
+                    <button class="star-flip" type="button" aria-expanded="false" aria-label="Show more about Vinicius Jr.">
+                        <img src="images/vini.jpg" alt="Vinicius">
+                    </button>
+                    <h3>Vinícius Jr.</h3>
+                </div>
+                <button class="star-card-face star-card-back star-flip-back" type="button" aria-expanded="true" aria-label="Show Vinicius Jr. image">
+                    <h3>Vinícius Jr.</h3>
+                    <p>An electric winger whose dribbling, courage, and Champions League impact make him one of football's most dangerous attackers.</p>
+                    <ul>
+                        <li>Explosive dribbler on the left wing</li>
+                        <li>Creates chances from nothing</li>
+                        <li>Proven match-winner in finals</li>
+                    </ul>
+                </button>
+            </div>
         </div>
 
         <div class="star-card">
-            <img src="images/valverde.jpg" alt="Valverde">
-            <h3>Valverde</h3>
-            <p>Midfielder</p>
+            <div class="star-card-inner">
+                <div class="star-card-face star-card-front">
+                    <button class="star-flip" type="button" aria-expanded="false" aria-label="Show more about Valverde">
+                        <img src="images/valverde.jpg" alt="Valverde">
+                    </button>
+                    <h3>Valverde</h3>
+                </div>
+                <button class="star-card-face star-card-back star-flip-back" type="button" aria-expanded="true" aria-label="Show Valverde image">
+                    <h3>Valverde</h3>
+                    <p>A tireless engine with speed, power, defensive work, and long-range quality that gives Madrid balance everywhere.</p>
+                    <ul>
+                        <li>Covers huge ground every match</li>
+                        <li>Powerful runner through midfield</li>
+                        <li>Dangerous from distance</li>
+                    </ul>
+                </button>
+            </div>
         </div>
 
     </div>
@@ -249,19 +399,25 @@
 
         <div class="stadium-info">
 
-            <div class="info-box">
-                <h3>📍 Location</h3>
-                <p>Madrid, Spain</p>
+            <div class="star-border-container info-box">
+                <div class="inner-content">
+                    <h3>📍 Location</h3>
+                    <p>Madrid, Spain</p>
+                </div>
             </div>
 
-            <div class="info-box">
-                <h3>👥 Capacity</h3>
-                <p>80,000+</p>
+            <div class="star-border-container info-box">
+                <div class="inner-content">
+                    <h3>👥 Capacity</h3>
+                    <p>80,000+</p>
+                </div>
             </div>
 
-            <div class="info-box">
-                <h3>🏟️ Opened</h3>
-                <p>1947</p>
+            <div class="star-border-container info-box">
+                <div class="inner-content">
+                    <h3>🏟️ Opened</h3>
+                    <p>1947</p>
+                </div>
             </div>
 
         </div>
@@ -278,28 +434,103 @@
     <div class="trophy-container">
 
         <div class="trophy-card">
-            <img src="images/ucl.jpg" alt="Champions League">
-            <h3>UEFA Champions League</h3>
+            <div class="trophy-card-inner">
+                <div class="trophy-card-face trophy-card-front">
+                    <button class="trophy-flip" type="button" aria-expanded="false" aria-label="Show more about UEFA Champions League">
+                        <img src="images/ucl.jpg" alt="Champions League">
+                    </button>
+                    <h3>UEFA Champions League</h3>
+                </div>
+                <button class="trophy-card-face trophy-card-back trophy-flip-back" type="button" aria-expanded="true" aria-label="Show UEFA Champions League image">
+                    <h3>UEFA Champions League</h3>
+                    <p>The trophy that defines Real Madrid's global legend and European dominance.</p>
+                    <ul>
+                        <li>Most decorated club in the competition</li>
+                        <li>Built on unforgettable knockout nights</li>
+                        <li>The symbol of Madrid's winning identity</li>
+                    </ul>
+                </button>
+            </div>
         </div>
 
         <div class="trophy-card">
-            <img src="images/laliga.jpg" alt="La Liga">
-            <h3>La Liga</h3>
+            <div class="trophy-card-inner">
+                <div class="trophy-card-face trophy-card-front">
+                    <button class="trophy-flip" type="button" aria-expanded="false" aria-label="Show more about La Liga">
+                        <img src="images/laliga.jpg" alt="La Liga">
+                    </button>
+                    <h3>La Liga</h3>
+                </div>
+                <button class="trophy-card-face trophy-card-back trophy-flip-back" type="button" aria-expanded="true" aria-label="Show La Liga image">
+                    <h3>La Liga</h3>
+                    <p>Spain's league title rewards consistency, depth, and excellence across a full season.</p>
+                    <ul>
+                        <li>Proof of week-after-week quality</li>
+                        <li>Won across many legendary eras</li>
+                        <li>A mark of domestic supremacy</li>
+                    </ul>
+                </button>
+            </div>
         </div>
 
         <div class="trophy-card">
-            <img src="images/copadelrey.jpg" alt="Copa del Rey">
-            <h3>Copa del Rey</h3>
+            <div class="trophy-card-inner">
+                <div class="trophy-card-face trophy-card-front">
+                    <button class="trophy-flip" type="button" aria-expanded="false" aria-label="Show more about Copa del Rey">
+                        <img src="images/copadelrey.jpg" alt="Copa del Rey">
+                    </button>
+                    <h3>Copa del Rey</h3>
+                </div>
+                <button class="trophy-card-face trophy-card-back trophy-flip-back" type="button" aria-expanded="true" aria-label="Show Copa del Rey image">
+                    <h3>Copa del Rey</h3>
+                    <p>A historic knockout cup where pressure, rivalry, and single-match brilliance decide everything.</p>
+                    <ul>
+                        <li>Spain's classic cup competition</li>
+                        <li>Known for intense knockout drama</li>
+                        <li>Adds heritage to Madrid's trophy wall</li>
+                    </ul>
+                </button>
+            </div>
         </div>
 
         <div class="trophy-card">
-            <img src="images/clubworldcup.jpg" alt="Club World Cup">
-            <h3>FIFA Club World Cup</h3>
+            <div class="trophy-card-inner">
+                <div class="trophy-card-face trophy-card-front">
+                    <button class="trophy-flip" type="button" aria-expanded="false" aria-label="Show more about FIFA Club World Cup">
+                        <img src="images/clubworldcup.jpg" alt="Club World Cup">
+                    </button>
+                    <h3>FIFA Club World Cup</h3>
+                </div>
+                <button class="trophy-card-face trophy-card-back trophy-flip-back" type="button" aria-expanded="true" aria-label="Show FIFA Club World Cup image">
+                    <h3>FIFA Club World Cup</h3>
+                    <p>A global crown that shows Madrid's ability to carry European success onto the world stage.</p>
+                    <ul>
+                        <li>Champions tested against world winners</li>
+                        <li>Global recognition for elite seasons</li>
+                        <li>Another proof of Madrid's reach</li>
+                    </ul>
+                </button>
+            </div>
         </div>
 
         <div class="trophy-card">
-            <img src="images/supercup.jpg" alt="Super Cup">
-            <h3>UEFA Super Cup</h3>
+            <div class="trophy-card-inner">
+                <div class="trophy-card-face trophy-card-front">
+                    <button class="trophy-flip" type="button" aria-expanded="false" aria-label="Show more about UEFA Super Cup">
+                        <img src="images/supercup.jpg" alt="Super Cup">
+                    </button>
+                    <h3>UEFA Super Cup</h3>
+                </div>
+                <button class="trophy-card-face trophy-card-back trophy-flip-back" type="button" aria-expanded="true" aria-label="Show UEFA Super Cup image">
+                    <h3>UEFA Super Cup</h3>
+                    <p>A European showcase between continental champions, often opening a new season with silverware.</p>
+                    <ul>
+                        <li>Rewards recent European success</li>
+                        <li>A high-profile continental final</li>
+                        <li>Shows Madrid's hunger never fades</li>
+                    </ul>
+                </button>
+            </div>
         </div>
 
     </div>
@@ -308,37 +539,382 @@
 
 </main>
 
-<footer>
+<footer class="site-footer">
 
-    <h2>Hala Madrid y Nada Más</h2>
+    <div class="footer-glow" aria-hidden="true"></div>
 
-    <p>
-        Real Madrid Legacy - A tribute website dedicated to the greatest football club in history.
-    </p>
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <h2>Hala Madrid !!!</h2>
+            <p>
+                Real Madrid Legacy - A tribute website dedicated to the greatest football club in history.
+            </p>
+            <p class="copyright">
+                © 2026 Real Madrid Legacy. Designed and developed by
+                <a href="https://www.linkedin.com/in/zaid-shikalgar/" target="_blank" rel="noopener noreferrer">
+                    Zaid Shikalgar
+                </a>
+            </p>
+        </div>
 
-    <nav class="footer-links" aria-label="Social media links">
-        <a href="#">Instagram</a>
-        <a href="#">YouTube</a>
-        <a href="#">X</a>
-        <a href="#">Facebook</a>
-    </nav>
+        <nav class="footer-columns" aria-label="Footer navigation">
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#players">Players</a>
+                <a href="#current-stars">Current Stars</a>
+                <a href="#stadium">Stadium</a>  
+                <a href="#trophies">Gallery</a>
+            </div>
 
-    <p class="copyright">
-        © 2026 Real Madrid Legacy | Created by Zaid Shikalgar. All rights reserved.
-    </p>
+            <div class="footer-column">
+                <h3>Social Links</h3>
+                <a href="https://www.facebook.com/RealFans.SK" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M14 8h3V5h-3c-2.8 0-5 2.2-5 5v2H6v3h3v6h3v-6h4l1-3h-5v-2c0-1.1.9-2 2-2Z"></path>
+                    </svg>
+                    Facebook
+                </a>
+                <a href="https://www.instagram.com/madridxtra_/" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <rect x="4" y="4" width="16" height="16" rx="5"></rect>
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <circle cx="17" cy="7" r="1"></circle>
+                    </svg>
+                    Instagram
+                </a>
+                <a href="https://www.youtube.com/@OnlyMadrid" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <rect x="3" y="6" width="18" height="12" rx="4"></rect>
+                        <path d="m10 9 5 3-5 3V9Z"></path>
+                    </svg>
+                    Youtube
+                </a>
+                <a href="https://x.com/MadridXtra" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="m4 4 16 16"></path>
+                        <path d="M20 4 4 20"></path>
+                    </svg>
+                    X (Twitter)
+                </a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <a href="https://www.youtube.com/@realmadrid" target="_blank" rel="noopener noreferrer">
+                    Real Madrid
+                </a>
+                <a href="https://21st.dev/community/components" target="_blank" rel="noopener noreferrer">
+                    21st.dev
+                </a>
+                <a href="https://magicui.design/" target="_blank" rel="noopener noreferrer">
+                    Magic UI
+                </a>
+                <a href="https://ianlunn.github.io/Hover/" target="_blank" rel="noopener noreferrer">
+                    Hover Effects
+                </a>
+            </div>
+
+             <div class="footer-column">
+                <h3>connect with me</h3>
+                <a href="https://www.linkedin.com/in/zaid-shikalgar/" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M5 9h3v10H5V9Z"></path>
+                        <path d="M5 5.8a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Z"></path>
+                        <path d="M12 9h3v1.4c.6-.9 1.5-1.6 3-1.6 2.2 0 4 1.5 4 4.8V19h-3v-5c0-1.5-.7-2.4-2-2.4s-2 .9-2 2.4v5h-3V9Z"></path>
+                    </svg>
+                    LinkedIn
+                </a>
+
+                <a href="https://github.com/zaidshikalgar" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3"></path>
+                        <path d="M16 22v-3.9a3.4 3.4 0 0 0-1-2.7c3.3-.4 6.8-1.6 6.8-7.4a5.7 5.7 0 0 0-1.6-4 5.3 5.3 0 0 0-.1-4s-1.3-.4-4.1 1.5a14.2 14.2 0 0 0-7.4 0C5.8-.4 4.5 0 4.5 0a5.3 5.3 0 0 0-.1 4 5.7 5.7 0 0 0-1.6 4c0 5.8 3.5 7 6.8 7.4a3.4 3.4 0 0 0-1 2.7V22"></path>
+                    </svg>
+                    GitHub
+                </a>
+
+                <a href="mailto:zaidshikalgar444@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                        <path d="m3 7 9 6 9-6"></path>
+                    </svg>
+                    Gmail
+                </a>
+
+                <a href="https://www.instagram.com/_zaid_shikalgar__7/" target="_blank" rel="noopener noreferrer">
+                     <svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <rect x="4" y="4" width="16" height="16" rx="5"></rect>
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <circle cx="17" cy="7" r="1"></circle>
+                    </svg>
+                    Instagram
+                </a>
+            </div>
+        </nav>
+    </div>
 
 </footer>
 
+<script src="https://unpkg.com/lucide@latest"></script>
 <script>
     const navToggle = document.querySelector('.nav-toggle');
     const header = document.querySelector('header');
-    const nav = document.querySelector('header nav');
 
     navToggle.addEventListener('click', () => {
         const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
         navToggle.setAttribute('aria-expanded', String(!isExpanded));
         header.classList.toggle('nav-open');
     });
+
+    document.querySelectorAll('.about-card').forEach((card) => {
+        card.addEventListener('pointermove', (event) => {
+            const rect = card.getBoundingClientRect();
+            const x = event.clientX - rect.left;
+            const y = event.clientY - rect.top;
+
+            card.style.setProperty('--glow-x', `${x}px`);
+            card.style.setProperty('--glow-y', `${y}px`);
+        });
+    });
+
+    function updatePlayerCardState(card, isFlipped) {
+        card.querySelector('.player-card-front').setAttribute('aria-hidden', String(isFlipped));
+        card.querySelector('.player-card-back').setAttribute('aria-hidden', String(!isFlipped));
+
+        card.querySelectorAll('.player-flip').forEach((cardButton) => {
+            const isBackButton = cardButton.closest('.player-card-back');
+            const isVisibleButton = isFlipped ? isBackButton : !isBackButton;
+
+            cardButton.setAttribute('aria-expanded', String(isFlipped));
+            cardButton.tabIndex = isVisibleButton ? 0 : -1;
+        });
+    }
+
+    document.querySelectorAll('.player-card').forEach((card) => {
+        updatePlayerCardState(card, card.classList.contains('is-flipped'));
+    });
+
+    document.querySelectorAll('.player-flip').forEach((button) => {
+        button.addEventListener('click', () => {
+            const card = button.closest('.player-card');
+            const isFlipped = card.classList.toggle('is-flipped');
+
+            updatePlayerCardState(card, isFlipped);
+        });
+    });
+
+    function updateStarCardState(card, isFlipped) {
+        card.querySelector('.star-card-front').setAttribute('aria-hidden', String(isFlipped));
+        card.querySelector('.star-card-back').setAttribute('aria-hidden', String(!isFlipped));
+
+        const frontButton = card.querySelector('.star-flip');
+        const backButton = card.querySelector('.star-flip-back');
+
+        frontButton.setAttribute('aria-expanded', String(isFlipped));
+        backButton.setAttribute('aria-expanded', String(isFlipped));
+        frontButton.tabIndex = isFlipped ? -1 : 0;
+        backButton.tabIndex = isFlipped ? 0 : -1;
+    }
+
+    document.querySelectorAll('.star-card').forEach((card) => {
+        updateStarCardState(card, card.classList.contains('is-flipped'));
+    });
+
+    document.querySelectorAll('.star-flip').forEach((button) => {
+        button.addEventListener('click', () => {
+            const card = button.closest('.star-card');
+
+            card.classList.add('is-flipped');
+            updateStarCardState(card, true);
+        });
+    });
+
+    document.querySelectorAll('.star-flip-back').forEach((button) => {
+        button.addEventListener('click', () => {
+            const card = button.closest('.star-card');
+
+            card.classList.remove('is-flipped');
+            updateStarCardState(card, false);
+        });
+    });
+
+    function updateTrophyCardState(card, isFlipped) {
+        card.querySelector('.trophy-card-front').setAttribute('aria-hidden', String(isFlipped));
+        card.querySelector('.trophy-card-back').setAttribute('aria-hidden', String(!isFlipped));
+
+        const frontButton = card.querySelector('.trophy-flip');
+        const backButton = card.querySelector('.trophy-flip-back');
+
+        frontButton.setAttribute('aria-expanded', String(isFlipped));
+        backButton.setAttribute('aria-expanded', String(isFlipped));
+        frontButton.tabIndex = isFlipped ? -1 : 0;
+        backButton.tabIndex = isFlipped ? 0 : -1;
+    }
+
+    document.querySelectorAll('.trophy-card').forEach((card) => {
+        updateTrophyCardState(card, card.classList.contains('is-flipped'));
+    });
+
+    document.querySelectorAll('.trophy-flip').forEach((button) => {
+        button.addEventListener('click', () => {
+            const card = button.closest('.trophy-card');
+
+            card.classList.add('is-flipped');
+            updateTrophyCardState(card, true);
+        });
+    });
+
+    document.querySelectorAll('.trophy-flip-back').forEach((button) => {
+        button.addEventListener('click', () => {
+            const card = button.closest('.trophy-card');
+
+            card.classList.remove('is-flipped');
+            updateTrophyCardState(card, false);
+        });
+    });
+
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function pointOnRoundedRect(t, width, height, radius, offset) {
+        const straightWidth = width - 2 * radius;
+        const straightHeight = height - 2 * radius;
+        const cornerArc = Math.PI * radius / 2;
+        const perimeter = 2 * straightWidth + 2 * straightHeight + 4 * cornerArc;
+        let distance = t * perimeter;
+
+        if (distance <= straightWidth) {
+            return { x: offset + radius + distance, y: offset };
+        }
+        distance -= straightWidth;
+
+        if (distance <= cornerArc) {
+            const angle = -Math.PI / 2 + distance / cornerArc * Math.PI / 2;
+            return {
+                x: offset + width - radius + Math.cos(angle) * radius,
+                y: offset + radius + Math.sin(angle) * radius
+            };
+        }
+        distance -= cornerArc;
+
+        if (distance <= straightHeight) {
+            return { x: offset + width, y: offset + radius + distance };
+        }
+        distance -= straightHeight;
+
+        if (distance <= cornerArc) {
+            const angle = distance / cornerArc * Math.PI / 2;
+            return {
+                x: offset + width - radius + Math.cos(angle) * radius,
+                y: offset + height - radius + Math.sin(angle) * radius
+            };
+        }
+        distance -= cornerArc;
+
+        if (distance <= straightWidth) {
+            return { x: offset + width - radius - distance, y: offset + height };
+        }
+        distance -= straightWidth;
+
+        if (distance <= cornerArc) {
+            const angle = Math.PI / 2 + distance / cornerArc * Math.PI / 2;
+            return {
+                x: offset + radius + Math.cos(angle) * radius,
+                y: offset + height - radius + Math.sin(angle) * radius
+            };
+        }
+        distance -= cornerArc;
+
+        if (distance <= straightHeight) {
+            return { x: offset, y: offset + height - radius - distance };
+        }
+        distance -= straightHeight;
+
+        const angle = Math.PI + distance / cornerArc * Math.PI / 2;
+        return {
+            x: offset + radius + Math.cos(angle) * radius,
+            y: offset + radius + Math.sin(angle) * radius
+        };
+    }
+
+    function setupElectricBorder(card) {
+        const canvas = document.createElement('canvas');
+        canvas.className = 'electric-canvas';
+        canvas.setAttribute('aria-hidden', 'true');
+        card.prepend(canvas);
+
+        const ctx = canvas.getContext('2d');
+        const offset = 18;
+        let width = 0;
+        let height = 0;
+        let dpr = 1;
+        function resize() {
+            const rect = card.getBoundingClientRect();
+            width = rect.width;
+            height = rect.height;
+            dpr = Math.min(window.devicePixelRatio || 1, 2);
+            canvas.width = (width + offset * 2) * dpr;
+            canvas.height = (height + offset * 2) * dpr;
+            canvas.style.width = `${width + offset * 2}px`;
+            canvas.style.height = `${height + offset * 2}px`;
+        }
+
+        function jitter(index, time) {
+            return Math.sin(index * 12.9898 + time * 0.028) * Math.cos(index * 4.1414 + time * 0.041);
+        }
+
+        function draw(time) {
+            if (!ctx) return;
+
+            ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+            ctx.clearRect(0, 0, width + offset * 2, height + offset * 2);
+
+            const radius = 10;
+            const samples = Math.max(120, Math.floor((width + height) * 0.75));
+            const active = card.matches(':hover, :focus, :focus-within');
+            const intensity = active ? 8 : 4;
+
+            ctx.lineWidth = active ? 1.6 : 1.15;
+            ctx.strokeStyle = '#7df9ff';
+            ctx.shadowColor = '#7df9ff';
+            ctx.shadowBlur = active ? 18 : 10;
+            ctx.beginPath();
+
+            for (let i = 0; i <= samples; i++) {
+                const progress = i / samples;
+                const point = pointOnRoundedRect(progress, width, height, radius, offset);
+                const burst = i % 17 === 0 ? intensity * 1.7 : intensity;
+                const x = point.x + jitter(i, time) * burst;
+                const y = point.y + jitter(i + 101, time) * burst;
+
+                if (i === 0) {
+                    ctx.moveTo(x, y);
+                } else {
+                    ctx.lineTo(x, y);
+                }
+            }
+
+            ctx.closePath();
+            ctx.stroke();
+
+            if (!prefersReducedMotion) {
+                requestAnimationFrame(draw);
+            }
+        }
+
+        resize();
+        new ResizeObserver(resize).observe(card);
+        draw(0);
+
+    }
+
+    document.querySelectorAll('.achievement-card').forEach(setupElectricBorder);
+
+    if (window.lucide) {
+        lucide.createIcons();
+    }
 </script>
 
 </body>
